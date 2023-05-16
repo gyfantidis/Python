@@ -1,6 +1,4 @@
-# Python 
- 
- # Pythons mini projects
+ # Python mini projects
 
 This repository contains a collection of mini education projects implemented in Python. These projects are designed to provide educational resources, enhance learning, and demonstrate various programming concepts in an interactive manner. Each project focuses on a specific topic or skill, making it suitable for beginners and intermediate learners.
 
