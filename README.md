@@ -10,6 +10,7 @@ This repository contains a collection of mini education projects implemented in 
 4. **Calculator**: A simple calculator.
 5. **Blackjack**: Play your favority card game (blackjack).
 6. **Guess game**: Guess the number and win.
+7. **Higher Lower Game**: Guess which Instagram accound have more folowers.
 .
 
 ## Getting Started
