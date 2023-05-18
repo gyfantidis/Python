@@ -4,6 +4,7 @@ from gameData import data
 import random
 import os
 
+
 ######## menu ######
 def printMenu(accountA, accountB, score):       
     print(logo)    
