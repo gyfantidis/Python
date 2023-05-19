@@ -11,7 +11,8 @@ This repository contains a collection of mini education projects implemented in 
 5. **Blackjack**: Play your favority card game (blackjack).
 6. **Guess game**: Guess the number and win.
 7. **Higher Lower Game**: Guess which Instagram accound have more folowers.
-.
+8. **Coffee Machine**: Buy a coffee from a coffee machine!
+
 
 ## Getting Started
 

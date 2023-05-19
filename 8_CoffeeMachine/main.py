@@ -13,6 +13,7 @@ def insertCoins():
 def monayControlCheck(coffeType, usersCoins, money):
     cost = MENU[coffeType]["cost"]
     change = usersCoins - cost
+
     if change < 0:
         print("Sorry that's not enough money. Money refunded.")
         return money
@@ -49,7 +50,7 @@ def game():
         else:
             if checkResources(coffee):
                 print("please insert coins.")
-                money = money + monayControlCheck(coffee, insertCoins(), money)
+                money = monayControlCheck(coffee, insertCoins(), money)
                 reduceResources(coffee)
             anotherCoffee = input("Do you want another coffee? 'Y for yes, 'N for no: ").lower()
             if anotherCoffee == 'n':
