@@ -1,4 +1,5 @@
 import random
+
 from turtle import Turtle, Screen
 
 colors = [
@@ -8,11 +9,18 @@ colors = [
     "turquoise", "salmon", "lavender", "tan"
 ]
 
+def randomColor():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    randomColor = (r, g, b)
+    return randomColor
+
+
+
 directions = [0, 90, 180, 270]
 
 
-import heroes
-print(heroes.gen())
 
 timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("turtle")
@@ -35,10 +43,27 @@ johny.shape("turtle")
 johny.color("DarkOrchid")
 johny.pensize(15)
 johny.speed("fastest")
-for _ in range(200):
+for _ in range(20):
     johny.color(random.choice(colors))
     johny.forward(30)
     johny.setheading(random.choice(directions))
+
+
+george = Turtle()
+george.color("Blue")
+george.right(180)
+george.forward(50)
+
+george.speed("fastest")
+george.circle(100)
+
+for _ in range(105):
+    george.color(random.choice(colors))
+    george.setheading(george.heading() + 10)
+    george.circle(100)
+
+
+
 
 
 def square(tur, dis):
