@@ -22,17 +22,17 @@ directions = [0, 90, 180, 270]
 
 
 
-timmy_the_turtle = Turtle()
-timmy_the_turtle.shape("turtle")
-timmy_the_turtle.color("blue", "green")
-paul =Turtle()
-paul.shape("turtle")
-paul.color("red")
+# timmy_the_turtle = Turtle()
+# timmy_the_turtle.shape("turtle")
+# timmy_the_turtle.color("blue", "green")
+# paul =Turtle()
+# paul.shape("turtle")
+# paul.color("red")
 tony = Turtle()
 tony.shape("turtle")
-tony.color("orange")
+tony.color("orange", "blue")
 tony.right(270)
-for _ in range(5):
+for _ in range(15):
     tony.forward(10)
     tony.penup()
     tony.forward(10)
@@ -43,10 +43,7 @@ johny.shape("turtle")
 johny.color("DarkOrchid")
 johny.pensize(15)
 johny.speed("fastest")
-for _ in range(20):
-    johny.color(random.choice(colors))
-    johny.forward(30)
-    johny.setheading(random.choice(directions))
+
 
 
 george = Turtle()
@@ -84,11 +81,12 @@ def polygon(tur, dis, pol):
             tur.right(degr)
 
 
-
-square(timmy_the_turtle,150)
-square(paul,50)
-
 polygon(tony,20,36)
+
+for _ in range(20):
+    johny.color(random.choice(colors))
+    johny.forward(30)
+    johny.setheading(random.choice(directions))
 
 
 
