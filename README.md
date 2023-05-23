@@ -12,6 +12,8 @@ This repository contains a collection of mini education projects implemented in 
 6. **Guess game**: Guess the number and win.
 7. **Higher Lower Game**: Guess which Instagram accound have more folowers.
 8. **Coffee Machine**: Buy a coffee from a coffee machine!
+9. **Guiz Game**: Gues if the q is True or False.
+10. **Turtle**: Watch the turtles painting.
 
 
 ## Getting Started
