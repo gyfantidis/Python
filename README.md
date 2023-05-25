@@ -14,6 +14,9 @@ This repository contains a collection of mini education projects implemented in 
 8. **Coffee Machine**: Buy a coffee from a coffee machine!
 9. **Guiz Game**: Gues if the q is True or False.
 10. **Turtle**: Watch the turtles painting.
+11. **Hirst Paining**: Painting like Hirst style.
+12. **Turtles Race**: Bet which turtle will win.
+13. **Snake Game**: The snake game of Nokia 3310
 
 
 ## Getting Started
