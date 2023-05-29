@@ -4,21 +4,21 @@ This repository contains a collection of mini education projects implemented in 
 
 ## Project List
 
-1. **Passwords creation**: Radnom creation passwords.
-2. **Hangman Game**: Guess the hidden word before the hangman is complete.
-3. **Ceasar Cipher**: Encore or Decore any word you want it.
+1. **Password Creation**: Generate random passwords.
+2. **Hangman Game**: Guess the hidden word before the hangman is completed.
+3. **Caesar Cipher**: Encrypt or decrypt any word of your choice.
 4. **Calculator**: A simple calculator.
-5. **Blackjack**: Play your favority card game (blackjack).
-6. **Guess game**: Guess the number and win.
-7. **Higher Lower Game**: Guess which Instagram accound have more folowers.
-8. **Coffee Machine**: Buy a coffee from a coffee machine!
-9. **Guiz Game**: Gues if the q is True or False.
-10. **Turtle**: Watch the turtles painting.
-11. **Hirst Paining**: Painting like Hirst style.
-12. **Turtles Race**: Bet which turtle will win.
-13. **Snake Game**: The Nokias 3310, Snake Game.
-14. **Pong Game**: Our favority Pong game.
-15. **Turtle Crossing Game**: Help the turtle to cross the road
+5. **Blackjack**: Play your favorite card game (blackjack).
+6. **Guess Game**: Guess the number and win.
+7. **Higher Lower Game**: Guess which Instagram account has more followers.
+8. **Coffee Machine**: Purchase a coffee from a coffee machine!
+9. **Quiz Game**: Guess if the question is True or False.
+10. **Turtle**: Observe the turtles painting.
+11. **Hirst Painting**: Create paintings in the style of Hirst.
+12. **Turtles Race**: Bet on which turtle will win.
+13. **Snake Game**: The classic Nokia 3310 Snake Game.
+14. **Pong Game**: Our favorite Pong game.
+15. **Turtle Crossing Game**: Help the turtle cross the road.
 
 
 ## Getting Started
