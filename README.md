@@ -16,7 +16,9 @@ This repository contains a collection of mini education projects implemented in 
 10. **Turtle**: Watch the turtles painting.
 11. **Hirst Paining**: Painting like Hirst style.
 12. **Turtles Race**: Bet which turtle will win.
-13. **Snake Game**: The Nokias 3310, Snake Game
+13. **Snake Game**: The Nokias 3310, Snake Game.
+14. **Pong Game**: Our favority Pong game.
+15. **Turtle Crossing Game**: Help the turtle to cross the road
 
 
 ## Getting Started
