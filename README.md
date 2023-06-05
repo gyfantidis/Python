@@ -19,6 +19,10 @@ This repository contains a collection of mini education projects implemented in 
 13. **Snake Game**: The classic Nokia 3310 Snake Game.
 14. **Pong Game**: Our favorite Pong game.
 15. **Turtle Crossing Game**: Help the turtle cross the road.
+16. **Mail Merge**: Personalize emails by replacing placeholders with names.
+17. **Pantas review**: Evaluate the Python library "Pandas" for data analysis.
+18. **Geography Game**: Identify US states in a fun guessing game.
+
 
 
 ## Getting Started
