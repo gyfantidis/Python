@@ -31,9 +31,9 @@ def start_timer():
     global reps
     reps = reps + 1
     print(reps)
-    work_sec = WORK_MIN * 2
-    short_break_sec = SHORT_BREAK_MIN
-    long_break_sec = LONG_BREAK_MIN
+    work_sec = WORK_MIN * 60
+    short_break_sec = SHORT_BREAK_MIN * 60
+    long_break_sec = LONG_BREAK_MIN * 60
 
     if reps % 8 == 0:
         count_down(long_break_sec)
@@ -70,7 +70,7 @@ def count_down(count):
 # ---------------------------- UI SETUP ------------------------------- #
 
 window = Tk()
-window.title("Pomodoro")
+window.title("Timer")
 window.config(padx=100, pady=50, bg=YELLOW)
 
 head_label = Label(text="Timer", bg=YELLOW, fg=GREEN, font=(FONT_NAME, 50, "bold"))
