@@ -1,0 +1,10 @@
+fb | giannis | 123456
+fb22 | giannis2 | 123456222
+linkedin | profile ioannis | 912k921
+linkedin22 | profile ioannis22 | 912k92122
+Amazon | gg@gmail.com | okl123
+amazon2  | gggg@gmail.com | o12i312jfA
+paypal | giannis@gmail.com | 12345FFF12
+pp | example@email.com | pE2K!uC!GJX(F9L
+Germanos | germ@gmail.com | qh(7m+ZIBz37x
+Pypi | example@email.com | +2Eja(17C&lxV%P
