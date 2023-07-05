@@ -8,14 +8,14 @@ BACKGROUND_COLOR = "#B1DDC6"
 
 # ------------------------ Data ------------------------#
 
-current_card={}
-to_learn={}
+current_card = {}
+to_learn = {}
 # Read the CSV file
 
 try:
-    data=read_csv("data/words_to_learn.csv")
+    data = read_csv("data/words_to_learn.csv")
 except FileNotFoundError:
-    original_data=read_csv("data/english_greek.csv")
+    original_data = read_csv("data/english_greek.csv")
     to_learn = original_data.to_dict(orient="records")
 else:
     to_learn = data.to_dict(orient="records")
@@ -29,6 +29,7 @@ def next_card():
     canvas.itemconfig(title_text, text="Greek", fill="black")
     canvas.itemconfig(word_text, text=current_card["Greek"], fill="black")
     canvas.itemconfig(card_bg, image=card_front_image)
+    canvas.itemconfig(remain_words, text=f"Still remaining {len(to_learn)} words", fill="black")  # ---new line
     flip_timer = window.after(3000, func=flip_card)
 
 
@@ -39,15 +40,13 @@ def is_know():
     next_card()
 
 
-
-
-
 # ---------------------- UI SETUP -------------------#
 
 def flip_card():
     canvas.itemconfig(title_text, text="English", fill="white")
     canvas.itemconfig(word_text, text=current_card["English"])
     canvas.itemconfig(card_bg, image=card_back_image)
+    canvas.itemconfig(remain_words, fill="white")  # ---new line
 
 
 window = Tk()
@@ -64,6 +63,7 @@ card_back_image = PhotoImage(file="images/card_back.png")
 card_bg = canvas.create_image(400, 263, image=card_front_image)
 title_text = canvas.create_text(400, 150, text="Title", font=("Ariel", 40, "italic"))
 word_text = canvas.create_text(400, 263, text="Word", font=("Ariel", 60, "bold"))
+remain_words = canvas.create_text(400, 400, text="", font=("Ariel", 30, "bold"))  # ---new line
 canvas.grid(column=0, row=0, columnspan=2)
 
 # ---Buttons---#
