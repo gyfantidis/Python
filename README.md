@@ -22,6 +22,13 @@ This repository contains a collection of mini education projects implemented in 
 16. **Mail Merge**: Personalize emails by replacing placeholders with names.
 17. **Pantas review**: Evaluate the Python library "Pandas" for data analysis.
 18. **Geography Game**: Identify US states in a fun guessing game.
+19. **NATO Alpgabet**: Spell the word using the NATO phonetic alphabet to improve clarity in communication.
+20. **Miles to Kilometrs**: Convert distances from miles to kilometers for accurate measurement comparisons.
+21. **Funny Timmer**: A timer that adds a touch of humor and entertainment while counting down your tasks or activities.
+22. **Password Manager**: Safely store and organize your passwords, ensuring strong security and easy access to your various online accounts.
+23. **Flash Cards**: The Flasg Cards Game.
+24. **Bithday Wisher**: AAutomate the process of sending heartfelt birthday wishes by scheduling and delivering personalized e-cards to your loved ones.
+25. **Interview Preparation**: Enhance your interview readiness with a collection of thoughtfully curated random questions that cover a wide range of potential interview topics. This resource aims to help you practice and refine your responses, boosting your confidence and performance during interviews.
 
 
 
